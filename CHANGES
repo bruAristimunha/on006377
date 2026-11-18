@@ -1,3 +1,11 @@
+1.0.3 2026-11-18
+  - dataset_description.json: License written as SPDX "CC0-1.0"
+  - channels.tsv: channel names aligned with the SNIRF measurement list and optical channels typed NIRSCWAMPLITUDE (mne_bids channel mismatch)
+  - *_nirs.json Manufacturer -> SNIRF /nirs/metaDataTags/ManufacturerName of each recording ("NIRx Medizintechnik GmbH"; not added where the tag is absent)
+  - *_nirs.json ManufacturersModelName -> doi:10.1038/s41562-025-02274-7 (CC-BY preprint doi:10.1101/2024.10.28.620644, section 2.2 "fNIRS Measurements": "two continuous-wave fNIRS systems (NIRSport2, NIRx Medical Technologies, Germany)")
+  - *_nirs.json RecordingDuration, RecordingType -> computed from the SNIRF time vector of each recording
+  - participants.json brainROIorder1-3 descriptions -> the upstream participants.json description of "brainROIorder"
+  - README.md "Known issues" -> the named SNIRF probes, optodes.tsv, events.tsv and nirs.json files; doi:10.1038/s41562-025-02274-7 section 2.2
 1.0.2 2025-09-19
   - Added sharedit link.
 1.0.1 2025-09-11

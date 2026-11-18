@@ -2,7 +2,7 @@
   "Name": "InclusionStudy",
   "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
-  "License": "CC0",
+  "License": "CC0-1.0",
   "DataLicense": "PDDL",
   "Authors": [
     "Meryem A. Yücel",
